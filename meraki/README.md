@@ -25,4 +25,25 @@ Make sure to install these Python packages before running the script:
 
 ```bash
 pip install meraki pandas openpyxl
+```
+
+## export_meraki_devices.py
+
+This script connects to the Meraki Dashboard API to retrieve the list of devices for a given organization.
+It processes the data, replaces network IDs with human-readable names, and exports it to an Excel file for better readability and reporting.
+
+### Key features:
+- Fetches device and network information using the Meraki API.
+- Maps network IDs to network names for clarity.
+- Removes irrelevant metadata columns from the dataset.
+- Sorts devices by their associated network.
+- Exports results to an Excel file (devices_meraki.xlsx).
+
+### Dependencies
+
+Make sure to install these Python packages before running the script:
+
+```bash
+pip install meraki pandas openpyxl
+```
 
