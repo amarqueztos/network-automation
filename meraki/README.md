@@ -27,6 +27,8 @@ Make sure to install these Python packages before running the script:
 pip install meraki pandas openpyxl
 ```
 
+---
+
 ## export_meraki_devices.py
 
 This script connects to the Meraki Dashboard API to retrieve the list of devices for a given organization.
